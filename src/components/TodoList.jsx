@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import TodoCard from '../components/TodoCard';
+import TodoCard from './TodoCard';
 
 const TodoList = () => {
   let [frmdata , setfrmdata] = useState({title: '', description: ''});

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router';
-// import Home from '../pages/Home';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
